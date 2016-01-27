@@ -1,0 +1,38 @@
+/* clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.placeholder {
+    background-color: #666;
+    border: 1px solid black;
+    padding: 20px; 
+}
+
+#main {
+    width: 66.667%; 
+    float: left; 
+}
+
+aside {
+    width: 33.333%; 
+    float: right;
+}
+
+footer {
+    clear: both; 
+}
+
+ul {
+    background-color: #666; 
+}
+
+li {
+    width: 200px;
+    float: left; 
+}
